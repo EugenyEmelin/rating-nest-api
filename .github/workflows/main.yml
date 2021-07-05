@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Publish to registry
-        uses: elgonr/Publish-Docker-Github-Action@master
+        uses: elgohr/Publish-Docker-Github-Action@master
         with:
           registry: docker.pkg.github.com
           name: docker.pkg.github.com/EugenyEmelin/nest-rest-api/nest-rating-api
